@@ -10,7 +10,7 @@ body {
 }
 .contacto {
     float: right;
-    margin: o;
+    margin: 0;
 }
 .yo h1 {
     background-color: #8895A6;
@@ -22,10 +22,15 @@ body {
 }
 
 #datos {
-    border: solid;
+    border: 1px solid black;
     padding: 20px 10px;
 }
 footer {
     background-color: #32908F;
     margin: 0px;
+}
+
+.link-academia, a {
+    text-decoration: none;
+    color: black;
 }
